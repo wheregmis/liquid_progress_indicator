@@ -19,27 +19,24 @@ class Example extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            FlatButton(
+            ElevatedButton(
               child: Text("Circular"),
-              color: Colors.grey[300],
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (_) => LiquidCircularProgressIndicatorPage(),
                 ),
               ),
             ),
-            FlatButton(
+            ElevatedButton(
               child: Text("Linear"),
-              color: Colors.grey[300],
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (_) => LiquidLinearProgressIndicatorPage(),
                 ),
               ),
             ),
-            FlatButton(
+            ElevatedButton(
               child: Text("Custom"),
-              color: Colors.grey[300],
               onPressed: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (_) => LiquidCustomProgressIndicatorPage(),
