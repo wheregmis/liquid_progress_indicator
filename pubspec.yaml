@@ -1,6 +1,6 @@
 name: liquid_progress_indicator
 description: A progress indicator with water-like effect in Flutter. Works similarly to Flutters own ProgressIndicator.
-version: 0.4.0
+version: 0.4.1
 homepage: "https://github.com/JordanADavies/liquid_progress_indicator"
 
 environment:
